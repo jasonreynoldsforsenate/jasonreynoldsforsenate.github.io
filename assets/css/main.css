@@ -2678,7 +2678,7 @@ input, select, textarea {
 		.features article .inner {
 			display: inline-block;
 			vertical-align: middle;
-			width: 65%;
+			width: 50%;
 		}
 
 			.features article .inner > :last-child {

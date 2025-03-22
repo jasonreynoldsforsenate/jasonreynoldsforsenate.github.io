@@ -3300,6 +3300,7 @@ input, select, textarea {
 					}
 
 			ul.feature-icons li {
+				columns:2;
 				display: block;
 				width: 100%;
 			}

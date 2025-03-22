@@ -3300,9 +3300,6 @@ input, select, textarea {
 					}
 
 			ul.feature-icons li {
-				columns:2;
-				-webkit-columns: 2;
-				-moz-columns: 2;
 				display: block;
 				width: 100%;
 			}

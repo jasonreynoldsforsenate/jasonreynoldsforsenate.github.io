@@ -21,8 +21,8 @@
         }
         </style>
     </head>
-        <body style="padding-top:120px;">
-            <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary border-bottom">
+        <body>
+            <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary border-bottom" id="sticky_navbar">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="index.html"><img src="images/Logo2-Blue2-sm.png" class="d-inline" alt="Jason Reynolds for Senate"></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,16 +30,16 @@
                         </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
+                            <li class="nav-item" data-bs-dismiss="#sticky_navbar">
                                 <a class="nav-link active" aria-current="page" href="#about">Home</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item" data-bs-dismiss="#sticky_navbar">
                                 <a class="nav-link" href="#events">Events</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item" data-bs-dismiss="#sticky_navbar">
                                 <a class="nav-link" href="#platform">Platform</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item" data-bs-dismiss="#sticky_navbar">
                                 <a class="nav-link" href="#contact">Contact or Volunteer</a>
                             </li>
                         </ul>
@@ -76,7 +76,7 @@
                     </div>
                 </div>
             </nav> -->
-        <section id="about" class="border-bottom">
+        <section id="about" class="border-bottom" style="padding-top:20px;">
         <div class="container border-bottom">
             <div class="row text-center"><h1>Jason Reynolds for Senate</h1></div>
                 <div class="'row" style="padding-bottom:20px;">

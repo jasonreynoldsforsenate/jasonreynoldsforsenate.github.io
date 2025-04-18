@@ -49,21 +49,18 @@
             border-color: rgba(0, 0, 0, 0.3); /* Slightly darker border on hover */
         }
 
-        /* Colorful Sections */
-        #section1 {
-            background-color: #b6dce1; /* Light cyan */
+        .section {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #ced4da; /* Add a border */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
         }
-        #section2 {
-            background-color: #a5d8ef; /* Lighter blue */
+        .section:nth-child(odd) {
+            background-color: #90caf9; /* More vibrant blue 1 */
         }
-        #section3 {
-            background-color: #b6dce1; /* A slightly darker cyan */
-        }
-        #section4 {
-            background-color: #a5d8ef; /* A slightly darker blue */
-        }
-        .section h2{
-            text-align: center;
+        .section:nth-child(even) {
+            background-color: #4fc3f7; /* More vibrant blue 2 */
         }
 
         .accordion-item h2 button{
@@ -71,7 +68,7 @@
             font-weight: bolder; /* Made it bolder */
         }
 
-        #section2 ul li {
+        #section3 ul li {
             font-size: 1.1rem; /* Increased font size of event list items */
         }
 
@@ -128,16 +125,16 @@
                         <a class="nav-link" href="#section1">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#donate">Donate</a>
+                        <a class="nav-link" href="#section2">Donate</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#section2">Events</a>
+                        <a class="nav-link" href="#section3">Events</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#section3">Platform</a>
+                        <a class="nav-link" href="#section4">Platform</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#section4">Contact</a>
+                        <a class="nav-link" href="#section5">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -166,7 +163,7 @@
         </div>
     </section>
 
-    <section class="section" id="donate">
+    <section class="section" id="section2">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 offset-md-3 text-center">
@@ -188,7 +185,7 @@
         </div>
     </section>
     
-    <section class="section" id="section2">
+    <section class="section" id="section3">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 offset-md-3 text-center">
@@ -214,7 +211,7 @@
         </div>
     </section>
 
-    <section class="section bg-light" id="section3">
+    <section class="section bg-light" id="section4">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 offset-md-2 text-center">
@@ -454,7 +451,7 @@
         </div>
     </section>
 
-    <section class="section" id="section4">
+    <section class="section" id="section5">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 offset-md-2 text-center">

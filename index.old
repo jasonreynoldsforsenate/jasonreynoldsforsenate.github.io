@@ -1,0 +1,602 @@
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Jason Reynolds for Senate</title>
+		<meta charset="utf-8" />
+        <script src="https://kit.fontawesome.com/851a51c31a.js" crossorigin="anonymous"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	-->
+	</head>
+	<body class="is-preload">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><img src="images/avatar.jpg" alt="Jason Reynolds for Senate" /></span>
+					<h1 id="logo"><a href="#">Jason Reynolds</a></h1>
+					<p>Progressive candidate for U.S. Senate<br />
+					in Virginia</p>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="#one" class="active">About Me</a></li>
+						<li><a href="positions.html">Positions</a></li>
+						<li><a href="events.html">Events</a></li>
+						<li><a href="#four">Contact</a></li>
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+						<li><a href="https://bsky.app/profile/jreynoldsforsenate.bsky.social"><i class="fa-brands fa-bluesky"></i><span class="label"> Bluesky</span></a></li>
+						<li><a href="https://www.facebook.com/groups/517552750849607/"><i class="fa-brands fa-facebook"></i><span class="label"> Facebook</span></a></li>
+						<li><a href="https://www.instagram.com/jason_reynolds_for_senate/"><i class="fa-brands fa-instagram"></i><span class="label"> Instagram</span></a></li>
+                        <li><a href="https://www.tiktok.com/@jasonreynoldsforsenate"><i class="fa-brands fa-tiktok"></i><span class="label"> TikTok</span></a></li>
+						<!-- <li><a href="#"><i class="fa-brands fa-github"></i><span class="label"> Github</span></a></li> -->
+						<!-- <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li> -->
+					</ul>
+				</footer>
+			</section>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<!-- <div class="image main" data-position="center">
+									<img src="images/banner.jpg" alt="Jason Reynolds for Senate Banner" />
+								</div> -->
+								<div class="container">
+										<h2>Jason Reynolds</h2>
+										<p>Progressive Democrat for U.S. Senate in Virginia.<br />
+										Government for the people, not the profits.</p>
+									<p>For too many election cycles, Virgina voters have only had a single Democrat on the ballot for U.S. Senate. I believe that Virginians deserve to have a progressive choice. <br />
+                                    That's why I'll be running against Senator Mark Warner in the 2026 U.S. Senate Democratic primary; to provide voters a candidate that supports common-sense progressive policies aimed at taking back our party, and our country, for the people.</p>
+									<p></p>
+								</div>
+							</section>
+                        
+                        <!-- Two B -->
+							<section id="two">
+								<div class="container">
+									<h3>Important Issues</h3>
+									<p>These are some of the issues that are important to me.</p>
+
+									<div class="features">
+										<article>
+											<a href="#" class="image"><img src="images/pic01.jpg" alt="LGBTQIA+ flag" /></a>
+											<div class="inner">
+												<h4>Protecting LGBTQIA+ Rights</h4>
+												<p><a href="#ex1" rel="modal:open"> Click for More Information</a></p>
+											</div>
+											<div id="ex1" class="modal">
+												<p>As the parent of a trans son, I am horrified at the current administration's treatment of the LGBTQIA+ community.<br /> When I am elected as your Senator, I pledge to fully support and protect LGBTQIA+ rights.</p>
+												<a href="#" rel="modal:close">Close</a>
+											  </div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic02.jpg" alt="Venus symbol" /></a>
+											<div class="inner">
+												<h4>Protecting a woman's right to reproductive healthcare</h4>
+												<p><a href="#ex2" rel="modal:open"> Click for More Information</a></p>
+											</div>
+											<div id="ex2" class="modal">
+												<p>All women should have the right to choose the reproductive healthcare options that are appropriate for them. When I am elected, I pledge to introduce a bill that guarantees a woman's right to reproductive healthcare and fight for that bill until it is passed.</p>
+												<a href="#" rel="modal:close">Close</a>
+											  </div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic03.jpg" alt="Patient and doctor" /></a>
+											<div class="inner">
+												<h4>Universal Healthcare</h4>
+												<p><a href="#ex3" rel="modal:open"> Click for More Information</a></p>
+											</div>
+											<div id="ex3" class="modal">
+												<p>I believe that Universal Healthcare is a basic human right and affordable quality healthcare should be available to anyone paying taxes.</p>
+												<a href="#" rel="modal:close">Close</a>
+											  </div>
+										</article>
+                                        <article>
+											<a href="#" class="image"><img src="images/pic04.jpg" alt="Tax document" /></a>
+											<div class="inner">
+												<h4>Fair Taxation</h4>
+												<p><a href="#ex4" rel="modal:open"> Click for More Information</a></p>
+											</div>
+											<div id="ex4" class="modal">
+												<p>America's tax code has increasingly been changed to benefit the ultra-wealthy and corporations at the expense of the poor, middle class, and working class. Millionaires, billionaires, and corporations should never pay a lower effective tax rate than someone working for a living. I pledge to fight for tax laws that ensure everyone carries a fair share of the tax burden.</p>
+												<a href="#" rel="modal:close">Close</a>
+											  </div>
+										</article>
+                                        <article>
+											<a href="#" class="image"><img src="images/pic05.jpg" alt="Money" /></a>
+											<div class="inner">
+												<h4>Minimizing the influence of dark money and large donors in politics</h4>
+												<p><a href="#ex5" rel="modal:open"> Click for More Information</a></p>
+											</div>
+											<div id="ex5" class="modal">
+												<p>If 2024 taught us anything, it's that the US political system is too easily influenced by dark money and ultra-wealthy donors. We need to have a system that promotes accountability and transparency for political spending. <br />
+												I pledge to not accept money from lobbyists, super PACS, or corporate special interests.</p>
+												<a href="#" rel="modal:close">Close</a>
+											  </div>
+										</article>
+                                        <article>
+											<a href="#" class="image"><img src="images/pic06.jpg" alt="Cabinet picks" /></a>
+											<div class="inner">
+												<h4>Commonsense Cabinet picks</h4>
+												<p><a href="#ex6" rel="modal:open"> Click for More Information</a></p>
+											</div>
+											<div id="ex6" class="modal">
+												<p>When elected, I pledge to not vote for any nominee that does not have demonstrable knowledge and expertise relevant to the Cabinet position. <br />
+												No more millionaire and billionaire Cabinet Secretaries.</p>
+												<a href="#" rel="modal:close">Close</a>
+											  </div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic06.jpg" alt="Cabinet picks" /></a>
+											<div class="inner">
+												<h4>Foreign Policy - Russia/Ukraine</h4>
+												<p><a href="#ex7" rel="modal:open"> Click for More Information</a></p>
+											</div>
+											<div id="ex7" class="modal">
+												<p>I stand with our allies in Ukraine. In 2022, Russia violated the Budapest Memorandum which called for them to respect the independnce and sovereignty of Ukraine as well as to refrain from threats or use force against Ukraine. <br />
+												The United States must continue to support the people of Ukraine in their struggle to remain free. We cannot allow Russia's agression to go unpunished. We must continue to supply Ukraine with the necessary armaments to defend themselves as well as maintain sanctions against Russia and any other country that threatens peace in Europe.</p>
+												<a href="#" rel="modal:close">Close</a>
+											  </div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic06.jpg" alt="Cabinet picks" /></a>
+											<div class="inner">
+												<h4>Foreign Policy - Israel/Palestine</h4>
+												<p><a href="#ex8" rel="modal:open"> Click for More Information</a></p>
+											</div>
+											<div id="ex8" class="modal">
+												<p>The U.S. must call for an immediate and permanent ceasefire in Gaza, the release of all remaining hostages on both sides, a return to previous borders, and expedited humanitarian support for Palestine.<br />
+												Palestinians must be aided in rebuilding their country and re-establishing a government without the involvement of Hamas.</p>
+												<a href="#" rel="modal:close">Close</a>
+											  </div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic06.jpg" alt="Cabinet picks" /></a>
+											<div class="inner">
+												<h4>Foreign Policy - General</h4>
+												<p><a href="#ex9" rel="modal:open"> Click for More Information</a></p>
+											</div>
+											<div id="ex9" class="modal">
+												<p>The Unisted States has had solid allies around the world. The current administration has damaged those relationships in a matter of weeks</p>
+												<a href="#" rel="modal:close">Close</a>
+											  </div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic06.jpg" alt="Cabinet picks" /></a>
+											<div class="inner">
+												<h4>Commonsense Cabinet picks</h4>
+												<p><a href="#ex10" rel="modal:open"> Click for More Information</a></p>
+											</div>
+											<div id="ex10" class="modal">
+												<p>When elected, I pledge to not vote for any nominee that does not have demonstrable knowledge and expertise relevant to the Cabinet position. <br />
+												No more millionaire and billionaire Cabinet Secretaries.</p>
+												<a href="#" rel="modal:close">Close</a>
+											  </div>
+										</article>
+									</div>
+								</div>
+							</section>
+
+						<!-- Three A-->
+							<section id="three">
+								<div class="container">
+									<h3>Upcoming Events</h3>
+									<p>These are some of the issues that are important to me</p>
+									<ul class="feature-icons">
+										<li><i class="fa-solid fa-handshake"></i> Meet and Greet - TBD</li>
+										<li><i class="fa-solid fa-handshake"></i> Meet and Greet - TBD</li>
+										<li><i class="fa-solid fa-handshake"></i> Meet and Greet - TBD</li>
+										<li><i class="fa-solid fa-democrat fa-spin"></i> Campaign kickoff - TBD</li>
+										<li><i class="fa-solid fa-calendar-day"></i> Petition Drive Begins - 1 January 2026</li>
+										<li><i class="fa-solid fa-calendar-week"></i> Petition Drive - District 1 - TBD</li>
+										<li><i class="fa-solid fa-calendar-week"></i> Petition Drive - District 2 - TBD</li>
+										<li><i class="fa-solid fa-clock fa-shake"></i> Filing Deadline - TBD</li>
+										<li><i class="fa-solid fa-check-to-slot fa-beat"></i> Early primary voting begins - TBD</li>
+										<li><i class="fa-solid fa-check-to-slot fa-bounce"></i> Primary (In Person voting) - TBD</li>
+									</ul>
+								</div>
+							</section>
+
+						<!-- Four -->
+							<section id="four">
+								<div class="container">
+									<h3>Contact Me</h3>
+									<p>I'm very interested to hear what Virginia voters think are the pressing issues for our state and our country. Please use one of the contact options below to share your thoughts or learn more about my campaign.<br />
+									If you live in Virginia, please consider <a href="https://docs.google.com/forms/d/e/1FAIpQLSeG0d1FsyZKD_oIq-OgvUq2CZpasNkkxHaGqNdGMTthBkhD_w/viewform?usp=sharing" target="_blank"><b>completing my candidate interest form.</b></a></p>
+									<ul class="icons">
+                                        <li><a href="https://bsky.app/profile/jreynoldsforsenate.bsky.social"><i class="fa-brands fa-bluesky"></i><span class="label"> Bluesky</span></a></li>
+                                        <li><a href="https://www.facebook.com/groups/517552750849607/"><i class="fa-brands fa-facebook"></i><span class="label"> Facebook</span></a></li>
+                                        <li><a href="https://www.instagram.com/jason_reynolds_for_senate/"><i class="fa-brands fa-instagram"></i><span class="label"> Instagram</span></a></li>
+                                        <li><a href="https://www.tiktok.com/@jasonreynoldsforsenate"><i class="fa-brands fa-tiktok"></i><span class="label"> TikTok</span></a></li>
+                                        <!-- <li><a href="#"><i class="fa-brands fa-github"></i><span class="label"> Github</span></a></li> -->
+                                        <!-- <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li> -->
+                                    </ul>
+                                    <!-- <form method="post" action="#">
+										<div class="row gtr-uniform">
+											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+											<div class="col-12"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
+											<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
+											<div class="col-12">
+												<ul class="actions">
+													<li><input type="submit" class="primary" value="Send Message" /></li>
+													<li><input type="reset" value="Reset Form" /></li>
+												</ul>
+											</div>
+										</div>
+									</form> -->
+								</div>
+							</section>
+						
+						<!-- Five -->
+						<!--
+							<section id="five">
+								<div class="container">
+									<h3>Elements</h3>
+										<h4>Text</h4>
+										<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+										This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+										This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+										<hr />
+										<header>
+											<h4>Heading with a Subtitle</h4>
+											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+										</header>
+										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+										<header>
+											<h5>Heading with a Subtitle</h5>
+											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+										</header>
+										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+										<hr />
+										<h2>Heading Level 2</h2>
+										<h3>Heading Level 3</h3>
+										<h4>Heading Level 4</h4>
+										<h5>Heading Level 5</h5>
+										<h6>Heading Level 6</h6>
+										<hr />
+										<h5>Blockquote</h5>
+										<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+										<h5>Preformatted</h5>
+										<pre><code>i = 0;
+							</section>
+
+							<section id="six">
+								<h4>Image</h4>
+								<h5>Fit</h5>
+								<span class="image fit"><img src="images/banner.jpg" alt="" /></span>
+								<div class="box alt">
+									<div class="row gtr-50 gtr-uniform">
+										<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+										<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+										<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+										<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+										<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+										<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+										<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+										<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+										<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+									</div>
+								</div>
+								<h5>Left &amp; Right</h5>
+								<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+								<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+							</section>
+						-->
+							<!--
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+									</section>
+
+									<section>
+										<h4>Lists</h4>
+										<div class="row">
+											<div class="col-6 col-12-xsmall">
+												<h5>Unordered</h5>
+												<ul>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Sagittis adipiscing lorem eleifend.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ul>
+												<h5>Alternate</h5>
+												<ul class="alt">
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Sagittis adipiscing lorem eleifend.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ul>
+											</div>
+											<div class="col-6 col-12-xsmall">
+												<h5>Ordered</h5>
+												<ol>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Etiam vel felis at lorem sed viverra.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Etiam vel felis at lorem sed viverra.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ol>
+												<h5>Icons</h5>
+												<ul class="icons">
+													<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+													<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+													<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+													<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+													<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+													<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
+												</ul>
+											</div>
+										</div>
+										<h5>Actions</h5>
+										<ul class="actions">
+											<li><a href="#" class="button primary">Default</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt">Default</a></li>
+										</ul>
+										<ul class="actions small">
+											<li><a href="#" class="button primary small">Small</a></li>
+											<li><a href="#" class="button small">Small</a></li>
+											<li><a href="#" class="button alt small">Small</a></li>
+										</ul>
+										<div class="row">
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary">Default</a></li>
+													<li><a href="#" class="button">Default</a></li>
+													<li><a href="#" class="button alt">Default</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6 col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary small">Small</a></li>
+													<li><a href="#" class="button small">Small</a></li>
+													<li><a href="#" class="button alt small">Small</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary fit">Default</a></li>
+													<li><a href="#" class="button fit">Default</a></li>
+													<li><a href="#" class="button alt fit">Default</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary small fit">Small</a></li>
+													<li><a href="#" class="button small fit">Small</a></li>
+													<li><a href="#" class="button alt small fit">Small</a></li>
+												</ul>
+											</div>
+										</div>
+									</section>
+
+									<section>
+										<h4>Table</h4>
+										<h5>Default</h5>
+										<div class="table-wrapper">
+											<table>
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item One</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Two</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Three</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Five</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+
+										<h5>Alternate</h5>
+										<div class="table-wrapper">
+											<table class="alt">
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item One</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Two</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Three</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Five</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+									</section>
+
+									<section>
+										<h4>Buttons</h4>
+										<ul class="actions">
+											<li><a href="#" class="button primary">Primary</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt">Alternate</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button primary large">Large</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt small">Small</a></li>
+										</ul>
+										<ul class="actions fit">
+											<li><a href="#" class="button primary fit">Fit</a></li>
+											<li><a href="#" class="button fit">Fit</a></li>
+											<li><a href="#" class="button alt fit">Fit</a></li>
+										</ul>
+										<ul class="actions fit small">
+											<li><a href="#" class="button primary fit small">Fit + Small</a></li>
+											<li><a href="#" class="button fit small">Fit + Small</a></li>
+											<li><a href="#" class="button alt fit small">Fit + Small</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+											<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+											<li><a href="#" class="button alt icon solid fa-check">Icon</a></li>
+										</ul>
+										<ul class="actions">
+											<li><span class="button primary disabled">Primary</span></li>
+											<li><span class="button disabled">Default</span></li>
+											<li><span class="button alt disabled">Alternate</span></li>
+										</ul>
+									</section>
+
+									<section>
+										<h4>Form</h4>
+										<form method="post" action="#">
+											<div class="row gtr-uniform">
+												<div class="col-6 col-12-xsmall">
+													<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+												</div>
+												<div class="col-6 col-12-xsmall">
+													<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+												</div>
+												<div class="col-12">
+													<select name="demo-category" id="demo-category">
+														<option value="">- Category -</option>
+														<option value="1">Manufacturing</option>
+														<option value="1">Shipping</option>
+														<option value="1">Administration</option>
+														<option value="1">Human Resources</option>
+													</select>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+													<label for="demo-priority-low">Low Priority</label>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-normal" name="demo-priority">
+													<label for="demo-priority-normal">Normal Priority</label>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-high" name="demo-priority">
+													<label for="demo-priority-high">High Priority</label>
+												</div>
+												<div class="col-6 col-12-medium">
+													<input type="checkbox" id="demo-copy" name="demo-copy">
+													<label for="demo-copy">Email me a copy of this message</label>
+												</div>
+												<div class="col-6 col-12-medium">
+													<input type="checkbox" id="demo-human" name="demo-human" checked>
+													<label for="demo-human">I am a human and not a robot</label>
+												</div>
+												<div class="col-12">
+													<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+												</div>
+												<div class="col-12">
+													<ul class="actions">
+														<li><input type="submit" value="Send Message" /></li>
+														<li><input type="reset" value="Reset" class="alt" /></li>
+													</ul>
+												</div>
+											</div>
+										</form>
+									</section>
+
+								</div>
+							</section>
+						-->
+
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li><img src="images/ukraine.jpg" alt="Ukraine Flag" /> Slava Ukraini</li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<!-- jQuery Modal -->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+	</body>
+</html>

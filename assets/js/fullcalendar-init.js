@@ -155,7 +155,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     // Hide after delay to allow reading
                     setTimeout(function() {
                         tooltip.hide(); 
-                    }, 3000); 
+                    }, 6000); 
                 });
 
                 info.el.addEventListener('touchmove', function(e) {

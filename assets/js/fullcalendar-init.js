@@ -70,6 +70,16 @@ document.addEventListener('DOMContentLoaded', function() {
                     time: '7pm - 9pm',
                     location: 'Roanoke Council Garden Clubs, 3640 Colonial Ave, Roanoke, VA 24018'
                 }
+            },            
+            {
+                title: 'Virginia Senate Primary Forum',
+                start: '2026-02-01T14:30:00',
+                end: '2026-02-01T16:30:00',
+                extendedProps: {
+                    type: 'in-person',
+                    time: '2:30pm - 4:30pm',
+                    location: 'Mason District Government Center,6507 Columbia Pike,Annandale, VA 22003'
+                }
             },
             {
                 title: 'Deadline to Register to Vote in the Primary',

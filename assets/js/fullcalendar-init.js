@@ -129,13 +129,48 @@ document.addEventListener('DOMContentLoaded', function() {
                  tooltipContent += '<br><em>Click for Map</em>';
             }
             
-            new bootstrap.Tooltip(info.el, {
-                title: tooltipContent,
-                html: true,
-                placement: 'top',
-                trigger: 'hover',
-                container: 'body'
-            });
+            var isMobile = 'ontouchstart' in document.documentElement || window.innerWidth < 768;
+
+            if (isMobile) {
+                // Mobile: Long press for details, Tap to click (handled by eventClick)
+                var tooltip = new bootstrap.Tooltip(info.el, {
+                    title: tooltipContent,
+                    html: true,
+                    placement: 'top',
+                    trigger: 'manual', 
+                    container: 'body'
+                });
+
+                var pressTimer;
+
+                info.el.addEventListener('touchstart', function(e) {
+                    pressTimer = setTimeout(function() {
+                        tooltip.show();
+                        // Optional: Vibration feedback could be added here
+                    }, 500); // 500ms for long press
+                }, { passive: true });
+
+                info.el.addEventListener('touchend', function(e) {
+                    clearTimeout(pressTimer);
+                    // Hide after delay to allow reading
+                    setTimeout(function() {
+                        tooltip.hide(); 
+                    }, 3000); 
+                });
+
+                info.el.addEventListener('touchmove', function(e) {
+                    clearTimeout(pressTimer); // Cancel on scroll
+                });
+            } else {
+                // Desktop: Standard Hover
+                new bootstrap.Tooltip(info.el, {
+                    title: tooltipContent,
+                    html: true,
+                    placement: 'top',
+                    trigger: 'hover',
+                    container: 'body'
+                });
+            }
         },
         eventContent: function(arg) {
             // Icons only

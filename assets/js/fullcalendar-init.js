@@ -159,61 +159,14 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         eventClick: function(info) {
             var url = info.event.url || (info.event.extendedProps && info.event.extendedProps.url);
-            var mapUrl = '';
             
-            if (info.event.extendedProps.type === 'in-person' && info.event.extendedProps.location) {
-                mapUrl = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(info.event.extendedProps.location);
-            }
-
-            var finalUrl = url || mapUrl;
-            
-            // Check for mobile (simple width check or touch capability)
-            var isMobile = window.innerWidth < 768 || 'ontouchstart' in document.documentElement;
-            
-            if (isMobile) {
-                // Show Modal
+            if (url) {
                 info.jsEvent.preventDefault();
-                
-                var modalTitle = document.getElementById('eventDetailsModalLabel');
-                var modalBody = document.getElementById('eventDetailsModalBody');
-                var actionBtn = document.getElementById('eventDetailsActionBtn');
-                
-                modalTitle.textContent = info.event.title;
-                
-                var content = '';
-                if (info.event.extendedProps.time) {
-                    content += '<p><strong>Time:</strong> ' + info.event.extendedProps.time + '</p>';
-                }
-                if (info.event.extendedProps.location) {
-                    content += '<p><strong>Location:</strong> ' + info.event.extendedProps.location + '</p>';
-                }
-                
-                modalBody.innerHTML = content;
-                
-                if (finalUrl) {
-                    actionBtn.href = finalUrl;
-                    actionBtn.style.display = 'inline-block';
-                    if (mapUrl && !url) {
-                        actionBtn.textContent = 'Open Map';
-                    } else {
-                        actionBtn.textContent = 'Open Link';
-                    }
-                } else {
-                    actionBtn.style.display = 'none';
-                }
-                
-                var modal = new bootstrap.Modal(document.getElementById('eventDetailsModal'));
-                modal.show();
-                
-            } else {
-                // Desktop Behavior (Direct Link)
-                if (url) {
-                    info.jsEvent.preventDefault();
-                    window.open(url, '_blank');
-                } else if (mapUrl) {
-                    info.jsEvent.preventDefault();
-                    window.open(mapUrl, '_blank');
-                }
+                window.open(url, '_blank');
+            } else if (info.event.extendedProps.type === 'in-person' && info.event.extendedProps.location) {
+                info.jsEvent.preventDefault();
+                var mapUrl = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(info.event.extendedProps.location);
+                window.open(mapUrl, '_blank');
             }
         }
     });

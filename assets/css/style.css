@@ -232,3 +232,10 @@ section:nth-of-type(even) {
   text-transform: uppercase;
   font-size: 0.85rem;
 }
+
+/* --- Utility Classes --- */
+.faded-disabled {
+  opacity: 0.4 !important;
+  pointer-events: none;
+  cursor: default;
+}
